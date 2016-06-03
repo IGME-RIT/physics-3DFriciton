@@ -1,0 +1,19 @@
+﻿Build started 7/14/2015 9:47:23 AM.
+     1>Project "\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Desktop\3D_Convex hull Collision Resolution\3D_Convexhull_CollisionResolution\3D_Convexhull_CollisionResolution.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (3D_Convexhull_CollisionResolution.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Desktop\3D_Convex hull Collision Resolution\3D_Convexhull_CollisionResolution\\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>\\banner.main.ad.rit.edu\students\sxt5244\igmprofile\desktop\3d_convex hull collision resolution\3d_convexhull_collisionresolution\main.cpp(744): warning C4101: 'temp' : unreferenced local variable
+     1>\\banner.main.ad.rit.edu\students\sxt5244\igmprofile\desktop\3d_convex hull collision resolution\3d_convexhull_collisionresolution\main.cpp(909): warning C4101: 'i' : unreferenced local variable
+     1>\\banner.main.ad.rit.edu\students\sxt5244\igmprofile\desktop\3d_convex hull collision resolution\3d_convexhull_collisionresolution\main.cpp(1217): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>\\banner.main.ad.rit.edu\students\sxt5244\igmprofile\desktop\3d_convex hull collision resolution\3d_convexhull_collisionresolution\main.cpp(586): warning C4715: 'overlap' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Desktop\3D_Convex hull Collision Resolution\Debug\3D_Friction.exe" /INCREMENTAL /NOLOGO /LIBPATH:"\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Desktop\3D_Convex hull Collision Resolution\3D_Convexhull_CollisionResolution\\lib" opengl32.lib glew32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Desktop\3D_Convex hull Collision Resolution\Debug\3D_Friction.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Desktop\3D_Convex hull Collision Resolution\Debug\3D_Friction.lib" /MACHINE:X86 Debug\main.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         3D_Convexhull_CollisionResolution.vcxproj -> \\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Desktop\3D_Convex hull Collision Resolution\Debug\3D_Friction.exe
+     1>Done Building Project "\\banner.main.ad.rit.edu\students\sxt5244\IGMProfile\Desktop\3D_Convex hull Collision Resolution\3D_Convexhull_CollisionResolution\3D_Convexhull_CollisionResolution.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.05
